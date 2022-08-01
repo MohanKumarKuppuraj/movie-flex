@@ -1,0 +1,30 @@
+.search-header-holder{
+    border-radius: 2px;
+    height: 30px;
+    width: 400px;
+}
+
+.search-header-holder .search-input{
+	background: transparent;
+    height: 30px;
+    width: 300px;
+    float: left;
+    border: none;
+    padding: 0 10px;
+    font-weight: bold;
+    letter-spacing: 0.22px;
+}
+
+.search-header-holder .search-input:focus,
+.search-header-holder .search-input:active{
+	border: none;
+	outline: none;
+}
+
+.search-header-holder .search-icon{
+	height: 20px;
+    float: right;
+    top: 5px;
+    position: relative;
+    right: 10px;
+}

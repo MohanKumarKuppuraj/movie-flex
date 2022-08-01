@@ -1,0 +1,115 @@
+.movie-search-container{
+	position: absolute;
+	height: 100%;
+	width: 90%;
+	left: 5%;
+}
+
+.movie-search-container .search-header{
+	height: 120px;
+	width: 100%;
+	top: 0;
+}
+
+.movie-search-container .search-header .logo-container{
+	float: left;
+	width: 50%;
+}
+
+.movie-search-container .search-header .logo-container .logo{
+	height: 40px;
+    float: left;
+    left: 10px;
+    top: 40px;
+    position: relative;
+}
+
+.movie-search-container .search-header .search-box-container{
+	float: left;
+    width: 50%;
+    height: 30px;
+    top: 45px;
+    position: relative;
+}
+
+.movie-search-container .search-header .search-box-container .search-header-holder{
+	float: right;
+}
+
+.movie-search-container .search-header .search-box-container img.profile-icon{
+    width: 30px;
+    float: right;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.movie-search-container .movie-result-container{
+	height: calc(100% - 140px);
+	width: 100%;
+	top: 120px;
+	overflow: hidden;
+}
+
+.movie-search-container .profile-modal-wrapper{
+	display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(111, 126, 140, 0.2);
+    backdrop-filter: blur(4px);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.movie-search-container .profile-section{
+	display: block;
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    width: 240px;
+    min-height: 100px;
+    background: #f1f1f1;
+    padding: 20px;
+}
+
+.movie-search-container .profile-section h2{
+	color: #333;
+	font-size: 16px;
+}
+
+.movie-search-container .profile-section button{
+	float: left;
+	height: 40px;
+	padding: 5px;
+	background: #ffffff;
+	border: none;
+	cursor: pointer;
+}
+
+.movie-search-container .profile-section button.selected{
+	border: 2px solid #333333;
+}
+
+
+.settings-holder{
+	width: 100%;
+	float: left;
+}
+
+.settings-holder .icon-holder{
+	width: 30px;
+}
+
+.settings-holder .icon-holder img.icon{
+	width: 30px;
+	float: left;
+	margin-left: 5px;
+}
+
+
+.settings-holder .settings-content{
+	float: left;
+	margin-left: 15px;
+}

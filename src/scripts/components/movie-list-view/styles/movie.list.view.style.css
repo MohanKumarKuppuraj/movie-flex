@@ -1,0 +1,240 @@
+.movie-list-container{
+	height: 100%;
+}
+
+.movie-list-container .pagination-header{
+	height: 50px;
+}
+
+.movie-list-container .pagination-header .results-count
+{
+   padding: 20px;
+   float: left;
+   font-weight: bold;
+   letter-spacing: 0.22px;
+}
+
+.movie-list-container .pagination-header .pagination-holder{
+    float: right;
+    padding: 20px;
+}
+
+.movie-list-container .pagination-header .pagination-holder span{
+    float: left;
+    line-height: 34px;
+    font-weight: bold;
+    letter-spacing: 0.22px;
+ }
+
+.movie-list-container .pagination-header img.pagination-mover{
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    width: 15px;
+}
+
+.movie-list-container .pagination-header img.pagination-mover.inactive{
+    opacity: 0.7;
+}
+
+.movie-list-container .pagination-header img.pagination-mover:hover{
+    border: 2px solid #ffffff99;
+    opacity: 0.7;
+}
+
+.movie-list-container .pagination-header img.view-type{
+    width: 25px;
+    margin-left: 10px;
+    padding: 0;
+    top: 5px;
+    position: relative;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.movie-list-container .pagination-header img.view-type.selected,
+.movie-list-container .pagination-header img.view-type:hover{
+    opacity: 1;
+}
+
+.movie-list-container .pagination-header img.view-type.first-elem{
+    margin-left: 40px;
+}  
+
+.movie-list-container .movie-details-modal-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.movie-list-container .movie-details-modal-wrapper .movie-details-modal{
+    width: 70%;
+    height: 80%;
+    position: fixed;
+    top: 10%;
+    left: 15%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.movie-list-container .movie-details-modal-wrapper .movie-details-modal .close-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: rgba(0,0,0,1);
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.movie-list-container .movie-details-modal-wrapper .movie-details-modal .close-icon img.close-img{
+    width: 25px;
+    display: table;
+    margin: 3px auto;
+}
+
+.movie-list-container .results-container{
+	width: calc(100% - 10px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    height: calc(100% - 25px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    left: 10px;
+    position: relative;
+}
+
+.movie-list-container .results-container.row .results-container{
+    display: block;
+}
+
+.movie-list-container .center-align-container{
+    font-size: 40px;
+    display: table;
+    margin: 100px auto;
+    width: 80%;
+}
+
+.results-container.tile .movie-tile{
+    height: 400px;
+    flex-grow: unset;
+    width: 22%;
+    padding: 10px;
+    border: 2px solid rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+.results-container.row .movie-tile{
+    width: 90%;
+    height: 70px;
+    padding: 5px;
+    border: 2px solid rgba(0,0,0,0);
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid #777;
+    margin: 4px auto;
+    display: table;
+}
+
+.results-container .movie-tile:hover{
+	border: 2px solid rgba(255,255,255,1);
+}
+
+.results-container.tile .movie-tile .tile-image-container{
+	height: 360px;
+	overflow: hidden;
+}
+
+.results-container.row .movie-tile .tile-image-container{
+    height: 70px;
+    overflow: hidden;
+    float: left;
+}
+
+.results-container.row .movie-tile .description-container{
+    float: left;
+    margin-left: 50px;
+}
+
+.results-container.row .movie-tile .type{
+    float: right;
+    margin-right: 20px;
+    top: 10px;
+    position: relative;
+    padding: 5px 20px;
+    border-radius: 2px;
+}
+
+.results-container.tile .movie-tile .tile-image-container img{
+	width: 100%;
+}
+
+.results-container.row .movie-tile .tile-image-container img{
+    height: 100%;
+    float: left;
+}
+
+.results-container .movie-tile .description-container .title,
+.results-container .movie-tile .description-container .year{
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    clear: both;
+    margin-top: 4px;
+}
+
+.movie-details-container{
+    display: block;
+    width: 100%;
+    padding: 40px;
+}
+
+.movie-details-container .poster-container{
+    display: block;
+    width: 30%;
+    float: left;
+}
+
+.movie-details-container .poster-container img{
+    width: 100%;
+}
+
+.movie-details-container .movie-details-content{
+    display: block;
+    width: 60%;
+    float: left;
+    margin-left: 5%;
+}
+
+.movie-details-label-desc{
+    width: 100%;
+    display: block;
+    float: left;
+    clear: both;
+    line-height: 28px;
+    position: relative;
+}
+
+.movie-details-label-desc label{
+    float: left;
+    opacity: 0.8;
+}
+
+.movie-details-label-desc span{
+    float: left;
+    margin-left: 5px;
+    
+}
+
+.movie-details-container .movie-details-content p{
+    top: 40px;
+    position: relative;
+    line-height: 28px;
+}
